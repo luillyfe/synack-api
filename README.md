@@ -1,24 +1,16 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Application which provides /search endpoint
 
 Things you may want to cover:
 
-* Ruby version
+* This endpoint takes first query parameter engine and value can be google or bing or both
 
-* System dependencies
+* This endpoint takes second query parameter text which can any string passed by user
 
-* Configuration
+* Based on engine parameters, it should google search or bing search and returns data
 
-* Database creation
+*  if query parameter is both then it should aggregate result from both search engine and return data
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
 
 * ...
